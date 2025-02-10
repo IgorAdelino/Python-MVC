@@ -10,6 +10,6 @@ class PetsTable(Base):
   type = Column(String, nullable=False)
 
   def __repr__(self):
-    return f"Pets [id={self.id}, name={self.name}, type={self.type}]"
+    return f"Pet: [id={self.id}, name={self.name}, type={self.type}]"
 
   
