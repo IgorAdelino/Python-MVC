@@ -331,6 +331,7 @@ overgeneral-exceptions=builtins.BaseException,builtins.Exception
 
 
 [FORMAT]
+indent-string='  ' 
 
 # Expected format of line ending, e.g. empty (any line ending), LF or CRLF.
 expected-line-ending-format=
@@ -647,5 +648,4 @@ init-import=no
 # builtins.
 redefining-builtins-modules=six.moves,past.builtins,future.builtins,builtins,io
 
-[FORMAT]
-indent-string='  '  # Define indentação com 2 espaços
+

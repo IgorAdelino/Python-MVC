@@ -12,8 +12,8 @@ class PetsRepository:
         pets = database.session.query(PetsTable).all()
         return pets
       except NoResultFound:
-        return []
-      
+        return []   
+          
   def delete_pet(self, id: int) -> None:
     with self.__db_connection as database:
       try:

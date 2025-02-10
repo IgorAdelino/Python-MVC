@@ -13,5 +13,5 @@ def test_list_pets():
 def test_delete_pet():
   repo = PetsRepository(db_connection_handler)
 
-  response =repo.delete_pet(1)
+  response = repo.delete_pet(1)
   print(response)
